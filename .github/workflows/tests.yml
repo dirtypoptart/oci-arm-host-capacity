@@ -2,7 +2,7 @@ name: Tests
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   tests:
     runs-on: ubuntu-latest
